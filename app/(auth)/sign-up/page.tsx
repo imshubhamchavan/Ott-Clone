@@ -1,9 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { GithubIcon } from "lucide-react";
 import Link from "next/link";
-import GoogleIcon from "../../../public/google.svg"
-import Image from "next/image";
 import GithubSignInButton from "@/app/components/GithubSigninButton";
 import GoogleSignInButton from "@/app/components/GoogleSignInButton";
 import { getServerSession } from "next-auth";
@@ -18,7 +15,7 @@ export default async function SignUp() {
     }
   return (
     <div className="mt-24 rounded bg-black/80 py-10 px-6 md:mt-0 md:max-w-sm md:px-14">
-      <form>
+      <form method="post" action="/api/auth/signin">
         <h1 className="text-3xl font-semibold text-white">Sign Up</h1>
         <div className="space-y-4 mt-5">
           <Input

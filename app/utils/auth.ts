@@ -10,7 +10,7 @@ import { getProviders } from "next-auth/react";
 export const authOption = {
 
     adapter: PrismaAdapter(prisma),
-    debug: true,
+    // debug: true,
   providers:[
         GithubProvider({
             clientId: process.env.GITHUB_ID as string,

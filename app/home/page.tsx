@@ -1,9 +1,5 @@
+import Navbar from "../components/Navbar";
 
- export default function HomePage() {
-     return (
-       <div>
-         <h1>hello authenticated user</h1>
-      
-       </div>
-     );
-   }
+export default function HomePage() {
+  return <Navbar/>;
+}

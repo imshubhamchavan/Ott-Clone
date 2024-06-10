@@ -10,7 +10,5 @@ export default async function Home() {
     } else {
       return redirect("/home");
     }
-      
-  
 
 }

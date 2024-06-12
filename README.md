@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Netflix Clone
 
-## Getting Started
+This is a Netflix clone built with modern web technologies, including Next.js, Supabase, Prisma, Tailwind CSS, Shadcn/UI, Next-Auth, and Auth.js. The project is deployed on Vercel.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the live demo: https://netflix-clone-shubham-chavans-projects.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A powerful and flexible front-end framework.
+- **Supabase**: An open-source Firebase alternative for seamless back-end and real-time capabilities.
+- **Prisma**: A robust and type-safe ORM for database interactions.
+- **Tailwind CSS**: Utility-first CSS framework for creating a beautiful and responsive UI.
+- **Shadcn/UI**: Additional UI components and customizations.
+- **Next-Auth**: Secure and easy authentication.
+- **Auth.js**: Ensuring secure authentication processes.
+- **Vercel**: Deployment platform for modern web applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠 Features
 
-## Learn More
+- User authentication with GitHub and Google.
+- Responsive and modern UI mimicking Netflix.
+- Real-time database interactions.
 
-To learn more about Next.js, take a look at the following resources:
+## 📖 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Make sure you have the following installed:
 
-## Deploy on Vercel
+- Node.js
+- npm or yarn
+- Supabase account
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/netflix-clone.git
+   cd netflix-clone
+   
+2. Install dependencies:
+   npm install
+    # or
+   yarn install
+
+3.Set up environment variables:
+
+Create a .env file in the root of the project.
+Add the following environment variables:
+
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+DATABASE_URL=your-database-url
+GITHUB_ID=your-github-id
+GITHUB_SECRET=your-github-secret
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+EMAIL_SERVER_HOST=your-email-server-host
+EMAIL_SERVER_PORT=your-email-server-port
+EMAIL_SERVER_USER=your-email-server-user
+EMAIL_SERVER_PASSWORD=your-email-server-password
+EMAIL_FROM=your-email-from
+
+4. Push the Prisma schema to the database:
+   npx prisma db push
+
+5. Run the development server:
+   npm run dev
+   # or
+   yarn dev

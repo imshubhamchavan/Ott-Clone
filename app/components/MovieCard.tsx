@@ -4,7 +4,7 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { Heart, PlayCircle } from "lucide-react";
 import PlayVideoModal from "./PlayVideoModal";
 import { useState } from "react";
-// import { addTowatchlist, deleteFromWatchlist } from "../action";
+ import { addTowatchlist, deleteFromWatchlist } from "../action";
 import { usePathname } from "next/navigation";
 
 interface iAppProps {
@@ -38,7 +38,7 @@ export function MovieCard({
         <PlayCircle className="h-20 w-20" />
       </button>
       { <div className="right-5 top-5 absolute z-10">
-        {/* {watchList ? (
+        {watchList ? (
           <form action={deleteFromWatchlist}>
             <input type="hidden" name="watchlistId" value={wachtListId} />
             <input type="hidden" name="pathname" value={pathName} />
@@ -54,7 +54,7 @@ export function MovieCard({
               <Heart className="w-4 h-4" />
             </Button>
           </form>
-        )} */}
+        )} 
       </div> }
 
       <div className="p-5 absolute bottom-0 left-0">

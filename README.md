@@ -41,11 +41,13 @@ Make sure you have the following installed:
    cd netflix-clone
    
 2. Install dependencies:
+   
    npm install
-    # or
+    ### or
    yarn install
 
 3.Set up environment variables:
+
 
 Create a .env file in the root of the project.
 Add the following environment variables:
@@ -64,9 +66,11 @@ EMAIL_SERVER_PASSWORD=your-email-server-password
 EMAIL_FROM=your-email-from
 
 4. Push the Prisma schema to the database:
+   
    npx prisma db push
 
-5. Run the development server:
+6. Run the development server:
+   
    npm run dev
-   # or
+   ### or
    yarn dev

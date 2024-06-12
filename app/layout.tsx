@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
        <head>
-        <link rel="icon" href="/app/favicon.ico" />
         <meta name="google-site-verification" content="nt8Dh8KJgelsqisLmAV66gQwYzSEwUat2GCwXvJ2MKE" />
+        <link rel="icon" href="/app/favicon.ico" />
       </head>
       <body className={inter.className}>
         <NextAuthProvider>{children}</NextAuthProvider>

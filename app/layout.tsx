@@ -24,6 +24,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <NextAuthProvider>{children}</NextAuthProvider>
+        <SpeedInsights />
       </body>
     </html>
   );

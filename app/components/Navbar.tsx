@@ -24,7 +24,7 @@ const links: linkProps[] = [
 export default function Navbar() {
   const pathName = usePathname();
   return (
-    <div className="w-full max-w-9xl mx-auto items-center justify-between px-5 sm:px-6 py-5 lg:px-8 flex ">
+    <div className="w-full max-w-7xl mx-auto items-center justify-between px-5 sm:px-6 py-5 lg:px-8 flex ">
       <div className="flex items-center">
         <Link className="w-32" href="/home">
           <Image src={Logo} alt="Netflix-logo" priority />

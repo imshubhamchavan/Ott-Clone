@@ -162,6 +162,7 @@ export default function SeedDatabase() {
           category: "show",
           youtubeString: "https://www.youtube.com/embed/7hRxWGo49oc",
         },
+        
       ],
     });
   }

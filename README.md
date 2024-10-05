@@ -4,7 +4,7 @@ This is a Netflix clone built with modern web technologies, including Next.js, S
 
 ## 🚀 Live Demo
 
-Check out the live demo: https://netflix-clone-shubham-chavans-projects.vercel.app/
+Check out the live demo: https://simple-ott-clone.vercel.app
 
 ## 📚 Technologies Used
 
